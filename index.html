@@ -13,6 +13,11 @@
     <script src="js/script.js" defer></script>
 </head>
 <body>
-    
+    <div id="root">
+        <h1 :class="titleClass">{{ title }}</h1>
+        <div class="img-container">
+            <img :class="imgClass" :src="img" alt="">
+        </div>
+    </div>
 </body>
 </html>

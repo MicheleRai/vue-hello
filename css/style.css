@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+.center-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.center-img{
+    width: 100vw;
+    height:89vh;
+    object-fit: cover;
+    object-position: top;
+}
+.img-container{
+    width: 100vw;
+}
